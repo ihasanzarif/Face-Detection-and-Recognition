@@ -36,6 +36,7 @@
             // 
             // cameraBox
             // 
+            this.cameraBox.BackColor = System.Drawing.Color.LightCyan;
             this.cameraBox.Location = new System.Drawing.Point(13, 13);
             this.cameraBox.Name = "cameraBox";
             this.cameraBox.Size = new System.Drawing.Size(536, 500);
@@ -44,19 +45,23 @@
             // 
             // startBtn
             // 
+            this.startBtn.BackColor = System.Drawing.Color.MidnightBlue;
+            this.startBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.startBtn.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startBtn.Location = new System.Drawing.Point(666, 49);
+            this.startBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.startBtn.Location = new System.Drawing.Point(639, 55);
             this.startBtn.Name = "startBtn";
             this.startBtn.Size = new System.Drawing.Size(264, 57);
             this.startBtn.TabIndex = 3;
             this.startBtn.Text = "Start Detection and Recognition";
-            this.startBtn.UseVisualStyleBackColor = true;
+            this.startBtn.UseVisualStyleBackColor = false;
             this.startBtn.Click += new System.EventHandler(this.startBtn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DodgerBlue;
             this.ClientSize = new System.Drawing.Size(989, 525);
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.cameraBox);

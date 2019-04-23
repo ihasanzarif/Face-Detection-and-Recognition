@@ -23,6 +23,7 @@ namespace FaceDetectionAndRecognition
         List<string> users = new List<string>();
         int count, numLabels, t;
         string name, names = null;
+
         public Form1()
         {
             InitializeComponent();
